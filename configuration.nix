@@ -110,19 +110,21 @@
      neovim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
      fzf
      ripgrep
-     z-lua
+     zoxide
+     bat
+     zellij
+     yazi
+     openssh
      lazygit
      git
      eza
-     gcc
      cmake
-     zig
      obsidian
      chromium
+     firefox
      gimp
      powershell
      pcloud
-     openssh
      bitwarden-desktop
      bitwarden-cli
      tailscale
@@ -130,8 +132,6 @@
      telegram-desktop
      discord
      steam
-     zellij
-     yazi
   ];
   
   fonts.packages = with pkgs; [
